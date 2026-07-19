@@ -118,4 +118,6 @@
 
 ## GitHub Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=astgregory&show_icons=true&hide=&count_private=true&title_color=3382ed&text_color=22c55e&icon_color=6366f1&bg_color=181824&hide_border=true)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=astgregory&show_icons=true&title_color=3382ed&text_color=22c55e&icon_color=6366f1&bg_color=181824&hide_border=true)
+
+
