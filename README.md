@@ -64,30 +64,36 @@
 🔗 [Репозиторий](https://github.com/astgregory/AIChatFlutter)  
 
 ### RAG‑нейроконсультант по документам (Google Drive)
-**Задача:** создать AI‑ассистента для ответов по корпоративным документам.  
-**Решение:** RAG‑подход: чанкинг текста, векторизация, поиск по эмбеддингам, генерация ответа. Интеграция с Google Drive API.  
-**Результат:** точность ответов по тестовым вопросам — 78–82% (ручная оценка), latency < 1.2 сек.  
-**Стек:** Python, PyTorch, transformers, Hugging Face, Google Drive API.  
-🔗 [Репозиторий](https://github.com/astgregory/RAG-neuroconsultant) *(замените на реальную ссылку, если проект есть в репозитории)*
 
-### Fine‑tuning GPT2 на WikiText‑2
-**Задача:** дообучить GPT‑2 для генерации связного текста на русском/английском.  
-**Решение:** обучение на CUDA, callback‑ы для сбора лоссов, early stopping, визуализация графиков.  
-**Результат:** perplexity снижен с 210 до 135 за 10 эпох, стабильная генерация абзацев.  
-**Стек:** PyTorch, transformers, datasets, CUDA, matplotlib/tensorboard.  
-🔗 [Репозиторий](https://github.com/astgregory/Task_28-NeuralLabOnGhatGPT)
+**Задача:** создать AI‑ассистента для ответов по корпоративным документам.  
+
+**Решение:** RAG‑подход: чанкинг текста, векторизация, поиск по эмбеддингам, генерация ответа. Интеграция с Google Drive API.  
+
+**Результат:** точность ответов по тестовым вопросам — 78–82% (ручная оценка), latency < 1.2 сек.  
+
+**Стек:** Python, PyTorch, transformers, Hugging Face, Google Drive API.  
+
+🔗 [Репозиторий](https://github.com/astgregory/NeuralLabOnGhatGPT)
+
+### PacmanReinforcementLearning — обучение агента RL
+
+**Задача:** обучить агента играть в Pacman с помощью методов reinforcement learning.  
+
+**Решение:** реализована среда, агент, цикл обучения и базовая оценка стратегии.  
+
+**Стек:** Python, Gym/аналоги, PyTorch.  
+
+🔗 [Репозиторий](https://github.com/astgregory/PacmanReinforcementLearning)
 
 ### django_htmx — веб‑приложение на Django + HTMX
-**Задача:** сделать динамический интерфейс без тяжёлого JS, используя HTMX.  
-**Решение:** настроен Django‑проект, добавлены HTMX‑запросы, реализованы CRUD‑операции с минимальной перезагрузкой страницы.  
-**Стек:** Django, HTMX, PostgreSQL/MySQL, Docker.  
-🔗 [Репозиторий](https://github.com/astgregory/django_htmx)
 
-### Task_42-PacmanReinforcementLearning — обучение агента RL
-**Задача:** обучить агента играть в Pacman с помощью методов reinforcement learning.  
-**Решение:** реализована среда, агент, цикл обучения и базовая оценка стратегии.  
-**Стек:** Python, Gym/аналоги, PyTorch.  
-🔗 [Репозиторий](https://github.com/astgregory/Task_42-PacmanReinforcementLearning)
+**Задача:** сделать динамический интерфейс без тяжёлого JS, используя HTMX.  
+
+**Решение:** настроен Django‑проект, добавлены HTMX‑запросы, реализованы CRUD‑операции с минимальной перезагрузкой страницы.  
+
+**Стек:** Django, HTMX, PostgreSQL/MySQL, Docker.  
+
+🔗 [Репозиторий](https://github.com/astgregory/django_htmx)
 
 
 ---
