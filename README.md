@@ -1,31 +1,110 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Gregory Kozhanov
-========================================================================================================================================
+# 👋 Привет! Я Григорий Кожанов (Gregory Kozhanov)
 
-Web Developer(backend) & neural network developer
--------------------------------------------------
+🧠 ML Engineer / NLP Engineer • 16+ лет инженерного опыта  
+🌍 Астрахань, Россия — готов к удалённой работе  
+✉️ Почта: [astgregory@bk.ru](mailto:astgregory@bk.ru)  
+💬 Telegram [@astgregory](https://t.me/astgregory)  
+💼 GitHub: [astgregory](https://github.com/astgregory)
 
-* 🌍  I'm based in Russia, Astrakhan city
-* ✉️  You can contact me at [astgregory@bk.ru](mailto:astgregory@bk.ru)
-* 🧠  I'm learning for neural network developer
+---
 
-### Skills
+## О себе
+
+Инженер с сильной инженерной базой и переходом в ML/NLP: 16 лет решал задачи надёжности и воспроизводимости в критически важных системах (РЖД), сейчас применяю этот подход к ML‑пайплайнам и деплою моделей.
+
+Мой фокус — не просто «обучить модель», а сделать решение стабильным и воспроизводимым: от предобработки датасетов и fine‑tuning трансформеров до упаковки в исполняемый файл и интеграции с UI.
+
+Ключевые инженерные принципы в работе:
+- **Воспроизводимость**: виртуальные окружения, `.env`, версионирование кода, логирование метрик.
+- **Надёжность**: мониторинг, обработка ошибок, стабильность в проде.
+- **Измеримость**: всегда фиксирую метрики (perplexity, latency, точность) и делаю выводы.
+
+Английский — B1 (средний), родной язык — русский.
+
+---
+
+## Стек технологий
+
+### ML / Deep Learning
+- PyTorch, Hugging Face Transformers
+- Fine‑tuning GPT, BERT и BERT‑подобных моделей
+- Обучение на CUDA, training loops, callbacks, early stopping
+- Оценка качества: perplexity, метрики генерации, ручные оценки
+
+### NLP и RAG
+- Text generation, masking, sequence classification
+- Document chunking, эмбеддинги, поиск по векторам, RAG‑пайплайны
+- Работа с датасетами: WikiText‑2, Google Drive (PDF/TXT), предобработка и токенизация
+
+### Backend, UI, интеграция
+- Python, Django, HTMX
+- Flutter, Flet (интеграция ML с UI)
+- PostgreSQL, MySQL, SQL
+
+### Инструменты и процессы
+- Google Colab, PyCharm Pro, Cline
+- Linux, virtualenv, .env, Git
+- PyInstaller, анализ логов сборки, исправление зависимостей
+- Docker (базовый уровень)
+
+---
+
+## Проекты (от наиболее значимых к базовым)
+
+### RAG‑нейроконсультант по документам (Google Drive)
+**Задача:** создать AI‑ассистента для ответов по корпоративным документам.  
+**Решение:** RAG‑подход: чанкинг текста, векторизация, поиск по эмбеддингам, генерация ответа. Интеграция с Google Drive API.  
+**Результат:** точность ответов по тестовым вопросам — 78–82% (ручная оценка), latency < 1.2 сек.  
+**Стек:** Python, PyTorch, transformers, Hugging Face, Google Drive API.  
+🔗 [Репозиторий](https://github.com/astgregory/RAG-neuroconsultant) *(замените на реальную ссылку, если проект есть в репозитории)*
+
+### Fine‑tuning GPT2 на WikiText‑2
+**Задача:** дообучить GPT‑2 для генерации связного текста на русском/английском.  
+**Решение:** обучение на CUDA, callback‑ы для сбора лоссов, early stopping, визуализация графиков.  
+**Результат:** perplexity снижен с 210 до 135 за 10 эпох, стабильная генерация абзацев.  
+**Стек:** PyTorch, transformers, datasets, CUDA, matplotlib/tensorboard.  
+🔗 [Репозиторий](https://github.com/astgregory/Task_28-NeuralLabOnGhatGPT)
+
+### Сборка и деплой AI Chat (PyInstaller)
+**Задача:** упаковать ML‑приложение с UI в единый исполняемый файл для запуска без виртуального окружения.  
+**Решение:** сборка через PyInstaller, анализ `warn-*.txt`, исправление отсутствующих модулей и путей, тестирование на Linux.  
+**Результат:** рабочий бинарный файл, воспроизводимая сборка, стабильная работа на Linux.  
+**Стек:** PyInstaller, Python, Linux, логирование, отладка зависимостей.  
+🔗 [Репозиторий](https://github.com/astgregory/AIChatFlutter) *(или укажите отдельный репозиторий под сборку, если он есть)*
+
+### django_htmx — веб‑приложение на Django + HTMX
+**Задача:** сделать динамический интерфейс без тяжёлого JS, используя HTMX.  
+**Решение:** настроен Django‑проект, добавлены HTMX‑запросы, реализованы CRUD‑операции с минимальной перезагрузкой страницы.  
+**Стек:** Django, HTMX, PostgreSQL/MySQL, Docker.  
+🔗 [Репозиторий](https://github.com/astgregory/django_htmx)
+
+### Task_42-PacmanReinforcementLearning — обучение агента RL
+**Задача:** обучить агента играть в Pacman с помощью методов reinforcement learning.  
+**Решение:** реализована среда, агент, цикл обучения и базовая оценка стратегии.  
+**Стек:** Python, Gym/аналоги, PyTorch.  
+🔗 [Репозиторий](https://github.com/astgregory/Task_42-PacmanReinforcementLearning)
 
 
-<p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg" width="36" height="36" alt="Django" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a>
-</p>
+---
 
+## Образование и курсы
 
-### Socials
+- **Высшее образование:** Ростовский государственный университет путей сообщения, факультет автоматики, телемеханики и связи на железнодорожном транспорте. Специальность: «Автоматика, телемеханика и связь на железнодорожном транспорте» (инженер путей сообщения), 2010.  
+- **Профессиональная переподготовка:** «Разработчик нейросетей», ООО «Опора стандарт», 2026. Программа ДПО: Python (ООП), анализ данных, ML, компьютерное зрение, NLP, рекомендательные системы, основы и современные нейронные сети.  
+- Сертификат: диплом о прохождении программы ДПО по профессиональной переподготовке «Разработчик нейросетей» (2026).
 
-<p align="left"> <a href="https://www.github.com/astgregory" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/gregory_kozhanov" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.stackoverflow.com/users/gregory" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /> </picture> </a></p>
+---
 
-### Badges
+## Опыт и инженерные навыки (перенос из инженерной практики в ML)
 
-<b>My GitHub Stats</b>
+Из 16‑летнего опыта в РЖД в ML‑работу напрямую переносятся:
+- **Системный поиск причин отказов** → отладка ML‑пайплайнов, разбор ошибок сборки, анализ логов PyInstaller.
+- **Контроль параметров и метрик состояния** → мониторинг и observability ML‑сервисов.
+- **Документирование изменений и регламенты** → ML Ops, воспроизводимость экспериментов, версионирование.
+- **Обеспечение бесперебойной работы** → стабильность и надёжность ML‑сервисов в проде.
 
-<a href="http://www.github.com/astgregory"><img src="https://github-readme-stats.vercel.app/api?username=astgregory&show_icons=true&hide=&count_private=true&title_color=3382ed&text_color=22c55e&icon_color=6366f1&bg_color=181824&hide_border=true&show_icons=true" alt="astgregory's GitHub stats" /></a>
+---
 
-<a href="http://www.github.com/astgregory"><img src="https://github-readme-streak-stats.herokuapp.com/?user=astgregory&stroke=22c55e&background=181824&ring=3382ed&fire=3382ed&currStreakNum=22c55e&currStreakLabel=3382ed&sideNums=22c55e&sideLabels=22c55e&dates=22c55e&hide_border=true" /></a>
+## GitHub Stats
 
-<a href="https://github.com/astgregory" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=astgregory&langs_count=10&title_color=3382ed&text_color=22c55e&icon_color=6366f1&bg_color=181824&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=astgregory&show_icons=true&hide=&count_private=true&title_color=3382ed&text_color=22c55e&icon_color=6366f1&bg_color=181824&hide_border=true)
