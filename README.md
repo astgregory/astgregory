@@ -116,6 +116,6 @@
 
 ---
 
-<b>My GitHub Stats</b>
+## My GitHub Stats
 
 <a href="http://www.github.com/astgregory"><img src="https://github-readme-streak-stats.herokuapp.com/?user=astgregory&stroke=22c55e&background=181824&ring=3382ed&fire=3382ed&currStreakNum=22c55e&currStreakLabel=3382ed&sideNums=22c55e&sideLabels=22c55e&dates=22c55e&hide_border=true" /></a>
